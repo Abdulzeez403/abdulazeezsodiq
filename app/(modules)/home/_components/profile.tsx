@@ -1,15 +1,27 @@
+'use client'
 import { ImageComponent } from '@/app/components/images';
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import { FaGithub, FaFacebookF, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import ProfileImage from "../../../../public/P1.jpg";
+import ProfileImage2 from "../../../../public/P2.jpg";
 import { MdOutlineMail } from "react-icons/md";
 
 function Profile() {
+
+    const [switcher, setSwitcher] = useState(true)
+
+    setTimeout(() => (
+        setSwitcher(false)
+    ), 1000);
     return (
         <div className='p-4'>
             <div>
-                <ImageComponent src={ProfileImage} alt="ProfileImage" width={150} height={80} />
+                <div className='flex'>
+                    <ImageComponent src={switcher ? ProfileImage : ProfileImage2} alt="ProfileImage" width={150} height={80} />
+                    {/* <ImageComponent src={ProfileImage2} alt="ProfileImage" width={150} height={80} /> */}
+                </div>
+
                 <div>
                     <div className='py-4'>
                         <h4 className='text-[25px] font-bold'>Abdulazeez Sodiq</h4>
@@ -17,7 +29,7 @@ function Profile() {
                     </div>
 
                     <div className='pb-4 text-sm '>
-                        <p>I am a <span className='textColor underline'>MERN Stack developer </span> who loves to create dynamic amd resposive wen applicaton</p>
+                        <p>I am a <span className='textColor underline'>MERN Stack Developer </span> who loves to create dynamic amd resposive wen applicaton</p>
 
                     </div>
 

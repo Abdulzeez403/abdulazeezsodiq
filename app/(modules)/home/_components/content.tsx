@@ -1,4 +1,4 @@
-import { ExperienceData, SkillData } from '@/app/Datas';
+import { ExperienceData, SkillData, ToolsDataBackend, ToolsDataFront, ToolsDataTools, projectData } from '@/app/Datas';
 import React from 'react'
 import { GrServices } from "react-icons/gr";
 import { SkillsComponent } from './skills';
@@ -13,7 +13,7 @@ import { IoIosCall } from "react-icons/io";
 import { MdOutlineMail } from "react-icons/md";
 import { FaLocationCrosshairs } from "react-icons/fa6";
 import { ContactForm } from './form';
-import ToolsComponent from './tools';
+import { ToolsComponent } from './tools';
 
 
 export const Content = () => {
@@ -53,7 +53,7 @@ export const Content = () => {
 
                 />
 
-                <div className='block sm:block  md:flex lg:flex gap-6 '>
+                <div className='block w-[100%] sm:block  md:flex lg:flex gap-6 '>
                     {SkillData.map((s, index) => (
 
                         <SkillsComponent key={index} title={s?.title} desc={s?.desc} />
@@ -89,7 +89,13 @@ export const Content = () => {
                     title="Projects and Works"
                     subTitle="My Project"
                 />
-                <ProjectComponent />
+                <div className='block gap-5 md:flex-wrap sm:block md:flex lg:flex lg:flex-wrap'>
+                    {
+                        projectData.map((p, i) => (
+                            <ProjectComponent data={p} key={i} />
+                        ))}
+                </div>
+
             </div>
 
 
@@ -102,70 +108,99 @@ export const Content = () => {
                     subTitle="My Specialization"
                 />
                 <div>
-                    <div className='flex gap-4 items-center'>
-                        <IoCodeSlashSharp size={23} />
-                        <h4 className='py-2 font-bold text-lg'>FRONTEND</h4>
+                    <div className='py-4'>
+                        <div className='flex gap-4 items-center'>
+                            <IoCodeSlashSharp size={23} />
+                            <h4 className='py-2 font-bold text-lg'>FRONTEND</h4>
+                        </div>
+                        <div className='flex flex-wrap gap-4'>
+                            {ToolsDataFront.map((t, i) => (
+                                <ToolsComponent key={i} data={t} />
+                            ))}
+                        </div>
                     </div>
 
-                    {<ToolsComponent />}
+                    <div className='py-4'>
+                        <div className='flex gap-4 items-center'>
+                            <IoCodeSlashSharp size={23} />
+                            <h4 className='py-2 font-bold text-lg'>BACKEND</h4>
+                        </div>
+                        <div className='flex flex-wrap gap-4'>
+                            {ToolsDataBackend.map((t, i) => (
+                                <ToolsComponent key={i} data={t} />
+                            ))}
+                        </div>
+                    </div>
 
+                    <div className='py-4'>
+                        <div className='flex gap-4 items-center'>
+                            <IoCodeSlashSharp size={23} />
+                            <h4 className='py-2 font-bold text-lg'>TOOLS</h4>
+                        </div>
+                        <div className='flex flex-wrap gap-4'>
+                            {ToolsDataTools.map((t, i) => (
+                                <ToolsComponent key={i} data={t} />
+                            ))}
+                        </div>
+                    </div>
+                </div >
+
+
+
+
+
+                <div className='py-4'>
+                    <HeaderTitle icon={
+                        <FaNetworkWired size={20} />}
+                        title="Contact Me"
+                        subTitle="Get In Touch"
+                    />
+
+                    <div className=' block gap-8 sm:block md:flex  lg:flex'>
+
+                        <div>
+                            <div className='flex gap-4 py-4'>
+                                <div className="rounded-lg p-4 cardShadow w-[50px] h-[50px]">
+                                    <IoIosCall size={18} color="#fff" />
+                                </div>
+                                <div>
+                                    <h5>call me at</h5>
+                                    <h3 className='font-bold'>+0805959499494</h3>
+                                </div>
+                            </div>
+                            <div className='flex gap-4'>
+                                <div className="rounded-lg p-4 cardShadow w-[50px] h-[50px]">
+                                    <MdOutlineMail size={18} color="#fff" />
+                                </div>
+                                <div>
+                                    <h5>Message me at</h5>
+                                    <h3 className='font-bold'>Abdulazeezsodiq403@gmail.com</h3>
+                                </div>
+                            </div>
+
+                            <div className='flex gap-4 py-4'>
+                                <div className="rounded-lg p-4 cardShadow w-[50px] h-[50px]">
+                                    <FaLocationCrosshairs size={18} color="#fff" />
+                                </div>
+                                <div>
+                                    <h5>I am from</h5>
+                                    <h3 className='font-bold'>Nigeria, Ilorin, Kwara State</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className=" w-[370px]">
+                            <ContactForm />
+                        </div>
+
+
+                    </div>
 
                 </div>
 
 
 
             </div >
-
-            <div className='py-4'>
-                <HeaderTitle icon={
-                    <FaNetworkWired size={20} />}
-                    title="Contact Me"
-                    subTitle="Get In Touch"
-                />
-
-                <div className=' block gap-8 sm:block md:flex  lg:flex'>
-
-                    <div>
-                        <div className='flex gap-4 py-4'>
-                            <div className="rounded-lg p-4 bg-red-500 w-[50px] h-[50px]">
-                                <IoIosCall size={18} color="#fff" />
-                            </div>
-                            <div>
-                                <h5>call me at</h5>
-                                <h3 className='font-bold'>+0805959499494</h3>
-                            </div>
-                        </div>
-                        <div className='flex gap-4'>
-                            <div className="rounded-lg p-4 bg-red-500 w-[50px] h-[50px]">
-                                <MdOutlineMail size={18} color="#fff" />
-                            </div>
-                            <div>
-                                <h5>Message me at</h5>
-                                <h3 className='font-bold'>Abdulazeezsodiq403@gmail.com</h3>
-                            </div>
-                        </div>
-
-                        <div className='flex gap-4 py-4'>
-                            <div className="rounded-lg p-4 bg-red-500 w-[50px] h-[50px]">
-                                <FaLocationCrosshairs size={18} color="#fff" />
-                            </div>
-                            <div>
-                                <h5>I am from</h5>
-                                <h3 className='font-bold'>Nigeria, Ilorin, Kwara State</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className=" w-[370px]">
-                        <ContactForm />
-                    </div>
-
-
-                </div>
-
-            </div>
-
-
         </div >
 
     )

@@ -25,7 +25,7 @@ export default function RootLayout({
                     defaultTheme="dark"
                     enableSystem
                     disableTransitionOnChange>
-                    <div className=" w-[100%] mx-auto py-4 px-2  md:w-[90%] lg:w-[90%]  ">
+                    <div className=" w-96 mx-auto py-4 px-2  md:w-[90%] lg:w-[90%]  ">
                         {children}
                     </div>
 

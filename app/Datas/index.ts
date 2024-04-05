@@ -18,6 +18,13 @@ export interface ITools {
   img: any;
 }
 
+export interface IProject {
+  img: any;
+  name: string;
+  link: string;
+  desc: string;
+}
+
 export const linkToSocialMedia = [{}];
 
 export const SkillData = [
@@ -30,7 +37,7 @@ export const SkillData = [
     desc: "I can convert any psd or Figma file into mobile or tab responsive web application. Capable of doing project in clean code.",
   },
   {
-    title: "FullStack Development",
+    title: "WordPress Development",
     desc: "I can convert any psd or Figma file into mobile or tab responsive web application. Capable of doing project in clean code.",
   },
 ];
@@ -56,15 +63,98 @@ export const ExperienceData: IExperienceProps[] = [
 
 export const ToolsDataFront: ITools[] = [
   {
-    img: "../../public/React-icon.svg.png",
+    img: "/React-icon.svg.png",
     title: "React js",
   },
   {
-    img: "../../public/React-icon.svg.png",
-    title: "React js",
+    img: "/next.png",
+    title: "Next js",
   },
   {
-    img: "../../public/React-icon.svg.png",
-    title: "React js",
+    img: "/js.png",
+    title: "Javascript",
+  },
+  {
+    img: "/mui.png",
+    title: "Redux",
+  },
+  {
+    img: "/tailwind.png",
+    title: "Tailwind",
+  },
+
+  {
+    img: "/tailwind.png",
+    title: "Tailwind",
+  },
+];
+
+export const ToolsDataBackend: ITools[] = [
+  {
+    img: "/jwt.png",
+    title: "JWT",
+  },
+  {
+    img: "/mongo.png",
+    title: "MongoDB",
+  },
+
+  {
+    img: "/express.png",
+    title: "Express",
+  },
+  {
+    img: "/node.png",
+    title: "Node",
+  },
+];
+
+export const ToolsDataTools: ITools[] = [
+  {
+    img: "/jira.png",
+    title: "Jira",
+  },
+
+  {
+    img: "/netlify.png",
+    title: "Netlify",
+  },
+
+  {
+    img: "/git.png",
+    title: "Git",
+  },
+
+  {
+    img: "/figma.png",
+    title: "Figma",
+  },
+];
+
+export const projectData: IProject[] = [
+  {
+    img: "/athens.png",
+    name: "Fashions",
+    link: "/asynctech.com",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque incidunt au ",
+  },
+
+  {
+    img: "/athens.png",
+    name: "Fashions",
+    link: "/asynctech.com",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque incidunt aut  ",
+  },
+  {
+    img: "/athens.png",
+    name: "Fashions",
+    link: "/asynctech.com",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque incidunt aut quas voluptatem  ",
+  },
+  {
+    img: "/athens.png",
+    name: "Fashions",
+    link: "/asynctech.com",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque incidunt aut  ",
   },
 ];
