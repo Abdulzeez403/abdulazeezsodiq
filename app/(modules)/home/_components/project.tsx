@@ -1,6 +1,5 @@
 import { ImageComponent } from '@/app/components/images'
 import React from 'react'
-import ProjectImage from "../../../../public/athens.png"
 import Link from 'next/link'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 import { IProject } from '@/app/Datas'
