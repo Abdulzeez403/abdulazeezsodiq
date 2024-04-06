@@ -89,7 +89,7 @@ export const Content = () => {
                     title="Projects and Works"
                     subTitle="My Project"
                 />
-                <div className='block gap-5 md:flex-wrap sm:block md:flex lg:flex lg:flex-wrap'>
+                <div className='block  gap-5 md:flex-wrap sm:block md:flex lg:flex lg:flex-wrap'>
                     {
                         projectData.map((p, i) => (
                             <ProjectComponent data={p} key={i} />
