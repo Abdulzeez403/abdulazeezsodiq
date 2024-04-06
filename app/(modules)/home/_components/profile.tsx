@@ -26,14 +26,14 @@ function Profile() {
                     </div>
 
                     <div className='pb-4 text-sm '>
-                        <p>I am a <span className='textColor underline'>MERN Stack Developer </span> who loves to create dynamic amd resposive wen applicaton</p>
+                        <p>I am a <span className='textColor underline'>MERN Stack Developer </span> who loves to create dynamic and resposive wen applicaton</p>
 
                     </div>
 
                     <div>
                         <div>
                             <h3 className='py-3 textColor'>Get my resume</h3>
-                            <p className='h-[2px] w-10 textColor, bg-red-300 p-[-2]'></p>
+                            <div className='h-[2px] w-10 textColor bg-green-200  m-[-10]'></div>
                         </div>
 
                         <nav className='pb-3'>

@@ -21,7 +21,7 @@ export const Content = () => {
     return (
         <div className="overflow-none  overflowed-scroll lg:overflow-auto lg:overflowed-scroll  h-[600px] " >
             <div>
-                <p className=' text-sm text-wrap'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cum consequatur maxime laborum fuga voluptate corrupti repudiandae earum? Voluptatibus odit iure cum commodi aliquam fuga soluta pariatur autem velit facilis, officiis doloremque veniam nostrum mollitia assumenda quae laborum tempora voluptate?</p>
+                <p className=' text-sm text-wrap'>My name is Sodiq Abdulazeez. I am from Nigeria, Ilorin, Kwara State. I have 3years of experience in Web development, Graphic Designing, Web Designing and Frontend Engineer 🎉. I have built websites and web applications that are responsive, scalable and fast for small business and medium business and I have contribute to several projects</p>
                 <br />
                 <p className='text-sm text-wrap'>I ventured into web programming driven by personal curiosity and discovered a profound passion for designing and developing web applications. The process of crafting digital experiences not only captivates me but also provides a sense of ownership and fulfillment as I bring my ideas to life</p>
 
@@ -29,12 +29,12 @@ export const Content = () => {
 
             <div className='flex justify-between items-center py-6'>
                 <div className='text-center'>
-                    <h4 className='text-[40px] md:text-[60px] lg:text-[60px]  font-bold'>02+</h4>
+                    <h4 className='text-[40px] md:text-[60px] lg:text-[60px]  font-bold'>04+</h4>
                     <h4 className='text-sm md:text-lg lg:text-lg'>Year of Experience</h4>
                 </div>
 
                 <div className='text-center'>
-                    <h4 className=' text-[40px] md:text-[60px] lg:text-[60px] font-bold'>10+</h4>
+                    <h4 className=' text-[40px] md:text-[60px] lg:text-[60px] font-bold'>05+</h4>
                     <h4 className='text-sm md:text-lg lg:text-lg'>Projects Completed</h4>
                 </div>
 
