@@ -32,7 +32,11 @@ function Profile() {
 
                     <div>
                         <div>
-                            <h3 className='py-3 textColor'>Get my resume</h3>
+                            <h3 className='py-3 textColor'>
+                                <a href="../AbdulazeezSodiq.pdf" download >
+                                    Get my resume
+                                </a>
+                            </h3>
                             <div className='h-[2px] w-10 textColor bg-green-200  m-[-10]'></div>
                         </div>
 

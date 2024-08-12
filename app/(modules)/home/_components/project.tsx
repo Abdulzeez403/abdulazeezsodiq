@@ -34,6 +34,13 @@ export const ProjectComponent = ({ data }: IProps) => {
                     </Link>
                     <FaExternalLinkAlt size={20} />
                 </div>
+                <div>{
+                    data?.stacks.map((s: any, index: number) => (
+                        <div key={index}>
+                            <h4 className='text-blue-500'>{s}</h4>
+                        </div>
+
+                    ))}</div>
                 <div className='py-2'>
                     <p className='text-sm'>{data?.desc}</p>
                 </div>

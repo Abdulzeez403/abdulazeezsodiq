@@ -23,6 +23,7 @@ export interface IProject {
     name: string;
     link: string;
     desc: string;
+    stacks: any;
 }
 
 export const linkToSocialMedia = [{}];
@@ -130,26 +131,25 @@ export const projectData: IProject[] = [
     {
         img: "/project1.png",
         name: "Foodie",
-        link: "www.foodie-web-nine.vercel.app",
+        stacks: ["React js, MongoDB, Tailwind, Express js"],
+        link: "https://foodie-web-nine.vercel.app",
         desc: "Foodie is restuarant website where user can order  food and see reviews from other users and tracking the delivery process",
     },
 
     {
-        img: "/project2.png",
-        name: "Life-Ease",
-        link: "/asynctech.com",
-        desc: "Life-ease is a specialized house renting website designed specifically for students to easily find hostels and communicate with agents  ",
+        img: "/jambfocus.png",
+        name: "JambFocus",
+        stacks: ["React js, Next Js, MongoDB, Tailwind, Express js"],
+        link: "https://jambfocus.com/",
+        desc: "JambFocus is a plalform where student earn will learn. you earn coins by answering past jamb question and you can convert this coin to either airtime or Databundle  ",
     },
+
     {
-        img: "/athens.png",
-        name: "Fashions",
-        link: "/foodie-web-nine.vercel.app",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque incidunt aut quas voluptatem  ",
+        img: "/ecommerce.png",
+        name: "Accmart",
+        stacks: ["Worpdress,  Elementor, Woo-commerce",],
+        link: "https://ecommerce.goolhealthandsport.com",
+        desc: "Accmart is a phone gatget store where you buy latest gatget and your order can be deliver all around the word.  ",
     },
-    {
-        img: "/athens.png",
-        name: "Fashions",
-        link: "/asynctech.com",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque incidunt aut  ",
-    },
+
 ];

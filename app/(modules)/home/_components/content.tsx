@@ -21,9 +21,11 @@ export const Content = () => {
     return (
         <div className="overflow-none  overflowed-scroll lg:overflow-auto lg:overflowed-scroll  h-[600px] " >
             <div>
-                <p className=' text-sm text-wrap'>My name is Sodiq Abdulazeez. I am from Nigeria, Ilorin, Kwara State. I have 3years of experience in Web development, Graphic Designing, Web Designing and Frontend Engineer 🎉. I have built websites and web applications that are responsive, scalable and fast for small business and medium business and I have contribute to several projects</p>
+                <p className=' text-sm text-wrap'>My name is Sodiq Abdulazeez. I am from Nigeria, Ilorin, Kwara State. With my years of experience in Web development, Graphic Designing, Web Designing and Frontend Engineer 🎉. I have built websites and web applications that are responsive, scalable and fast for small business and medium business and I have contribute to several projects</p>
                 <br />
                 <p className='text-sm text-wrap'>I ventured into web programming driven by personal curiosity and discovered a profound passion for designing and developing web applications. The process of crafting digital experiences not only captivates me but also provides a sense of ownership and fulfillment as I bring my ideas to life</p>
+
+
 
             </div>
 
