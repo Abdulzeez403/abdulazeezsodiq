@@ -1,155 +1,155 @@
-interface socailMediaProps {}
+interface socailMediaProps { }
 
 export interface SkillsProps {
-  title: string;
-  desc: string;
+    title: string;
+    desc: string;
 }
 export interface IExperienceProps {
-  role: string;
-  company: string;
-  date: string;
-  desc: string;
-  techUseds: string[];
-  projects: string[];
+    role: string;
+    company: string;
+    date: string;
+    desc: string;
+    techUseds: string[];
+    projects: string[];
 }
 
 export interface ITools {
-  title: string;
-  img: any;
+    title: string;
+    img: any;
 }
 
 export interface IProject {
-  img: any;
-  name: string;
-  link: string;
-  desc: string;
+    img: any;
+    name: string;
+    link: string;
+    desc: string;
 }
 
 export const linkToSocialMedia = [{}];
 
 export const SkillData = [
-  {
-    title: "FontEnd Web Development",
-    desc: "I can convert any psd or Figma file into mobile or tab responsive web application. Capable of doing project in clean code.",
-  },
-  {
-    title: "Mobile App Development",
-    desc: "I have pretty good experience building cross-platform application and it is scalable with quick performance. I have worked on atleast 5 mobile app which are now live",
-  },
-  {
-    title: "WordPress Development",
-    desc: "I specialize in converting PSD or Figma designs into WordPress websites and creating custom themes from scratch. I've successfully completed numerous projects in this domain",
-  },
+    {
+        title: "FontEnd Web Development",
+        desc: "I can convert any psd or Figma file into mobile or tab responsive web application. Capable of doing project in clean code.",
+    },
+    {
+        title: "Mobile App Development",
+        desc: "I have pretty good experience building cross-platform application and it is scalable with quick performance. I have worked on atleast 5 mobile app which are now live",
+    },
+    {
+        title: "WordPress Development",
+        desc: "I specialize in converting PSD or Figma designs into WordPress websites and creating custom themes from scratch. I've successfully completed numerous projects in this domain",
+    },
 ];
 
 export const ExperienceData: IExperienceProps[] = [
-  {
-    role: "MERN Stack Developer",
-    company: "Asynctechs",
-    date: "Dec, 2022 - Present",
-    desc: "At Asynctechs, a startup located in Kwara State, I started as a frontend developer. Later, I transitioned to testing and eventually returned to development. Throughout my journey, I collaborated with a remote team of eight individuals, spread across different locations",
-    techUseds: ["ReactJs", "JavaScript", "NextJs", "Graphql", "React Native"],
-    projects: ["MsGold", "Transact"],
-  },
-  {
-    role: "FRONTEND Developer",
-    company: "Freelancer",
-    date: "March, 2021 - Still Date",
-    desc: "As a seasoned freelancer software engineer, I specialize in transforming client ideas into vibrant, functional realities. With a meticulous approach, I craft bug-free, scalable projects that exceed expectations. My commitment to quality ensures that each endeavor is not only a reflection of the client's vision but also a testament to my dedication to excellence.",
-    techUseds: ["ReactJs", "JavaScript", "Redux"],
-    projects: ["Foodie", "Life-Ease"],
-  },
+    {
+        role: "MERN Stack Developer",
+        company: "Asynctechs",
+        date: "Dec, 2022 - Present",
+        desc: "At Asynctechs, a startup located in Kwara State, I started as a frontend developer. Later, I transitioned to testing and eventually returned to development. Throughout my journey, I collaborated with a remote team of eight individuals, spread across different locations",
+        techUseds: ["ReactJs", "JavaScript", "NextJs", "Graphql", "React Native"],
+        projects: ["MsGold", "Transact"],
+    },
+    {
+        role: "FRONTEND Developer",
+        company: "Freelancer",
+        date: "March, 2021 - Still Date",
+        desc: "As a seasoned freelancer software engineer, I specialize in transforming client ideas into vibrant, functional realities. With a meticulous approach, I craft bug-free, scalable projects that exceed expectations. My commitment to quality ensures that each endeavor is not only a reflection of the client's vision but also a testament to my dedication to excellence.",
+        techUseds: ["ReactJs", "JavaScript", "Redux"],
+        projects: ["Foodie", "Life-Ease"],
+    },
 ];
 
 export const ToolsDataFront: ITools[] = [
-  {
-    img: "/React-icon.svg.png",
-    title: "React js",
-  },
-  {
-    img: "/next.png",
-    title: "Next js",
-  },
-  {
-    img: "/js.png",
-    title: "Javascript",
-  },
-  {
-    img: "/mui.png",
-    title: "Redux",
-  },
-  {
-    img: "/tailwind.png",
-    title: "Tailwind",
-  },
+    {
+        img: "/React-icon.svg.png",
+        title: "React js",
+    },
+    {
+        img: "/next.png",
+        title: "Next js",
+    },
+    {
+        img: "/js.png",
+        title: "Javascript",
+    },
+    {
+        img: "/mui.png",
+        title: "Redux",
+    },
+    {
+        img: "/tailwind.png",
+        title: "Tailwind",
+    },
 ];
 
 export const ToolsDataBackend: ITools[] = [
-  {
-    img: "/jwt.png",
-    title: "JWT",
-  },
-  {
-    img: "/mongo.png",
-    title: "MongoDB",
-  },
+    {
+        img: "/jwt.png",
+        title: "JWT",
+    },
+    {
+        img: "/mongo.png",
+        title: "MongoDB",
+    },
 
-  {
-    img: "/express.png",
-    title: "Express",
-  },
-  {
-    img: "/node.png",
-    title: "Node",
-  },
+    {
+        img: "/express.png",
+        title: "Express",
+    },
+    {
+        img: "/node.png",
+        title: "Node",
+    },
 ];
 
 export const ToolsDataTools: ITools[] = [
-  {
-    img: "/jira.png",
-    title: "Jira",
-  },
+    {
+        img: "/jira.png",
+        title: "Jira",
+    },
 
-  {
-    img: "/netlify.png",
-    title: "Netlify",
-  },
+    {
+        img: "/netlify.png",
+        title: "Netlify",
+    },
 
-  {
-    img: "/git.png",
-    title: "Git",
-  },
+    {
+        img: "/git.png",
+        title: "Git",
+    },
 
-  {
-    img: "/figma.png",
-    title: "Figma",
-  },
+    {
+        img: "/figma.png",
+        title: "Figma",
+    },
 ];
 
 export const projectData: IProject[] = [
-  {
-    img: "/athens.png",
-    name: "Foodie",
-    link: "/foodie-web-nine.vercel.app",
-    desc: "Foodie is restuarant website where user can order  food and see reviews from other users and tracking the delivery process",
-  },
+    {
+        img: "/project1.png",
+        name: "Foodie",
+        link: "www.foodie-web-nine.vercel.app",
+        desc: "Foodie is restuarant website where user can order  food and see reviews from other users and tracking the delivery process",
+    },
 
-  {
-    img: "/athens.png",
-    name: "Life-Ease",
-    link: "/asynctech.com",
-    desc: "Life-ease is a specialized house renting website designed specifically for students to easily find hostels and communicate with agents  ",
-  },
-  {
-    img: "/athens.png",
-    name: "Fashions",
-    link: "/foodie-web-nine.vercel.app",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque incidunt aut quas voluptatem  ",
-  },
-  {
-    img: "/athens.png",
-    name: "Fashions",
-    link: "/asynctech.com",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque incidunt aut  ",
-  },
+    {
+        img: "/project2.png",
+        name: "Life-Ease",
+        link: "/asynctech.com",
+        desc: "Life-ease is a specialized house renting website designed specifically for students to easily find hostels and communicate with agents  ",
+    },
+    {
+        img: "/athens.png",
+        name: "Fashions",
+        link: "/foodie-web-nine.vercel.app",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque incidunt aut quas voluptatem  ",
+    },
+    {
+        img: "/athens.png",
+        name: "Fashions",
+        link: "/asynctech.com",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque incidunt aut  ",
+    },
 ];

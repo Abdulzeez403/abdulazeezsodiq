@@ -3,7 +3,7 @@ import { ImageComponent } from '@/app/components/images';
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { FaGithub, FaFacebookF, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
-import ProfileImage from "../../../../public/P1.jpg";
+import ProfileImage from "../../../../public/person2.png";
 import { MdOutlineMail } from "react-icons/md";
 
 function Profile() {
@@ -15,18 +15,18 @@ function Profile() {
         <div className='p-4'>
             <div>
                 <div className='flex'>
-                    <ImageComponent src={ProfileImage} alt="ProfileImage" width={150} height={80} />
+                    <ImageComponent src={ProfileImage} alt="ProfileImage" width={250} height={250} className="rounded-lg" />
 
                 </div>
 
                 <div>
                     <div className='py-4'>
                         <h4 className='text-[25px] font-bold'>Abdulazeez Sodiq</h4>
-                        <p className='text-sm'>SoftWare Enginner <span className='textColor'>(Frontend)</span></p>
+                        <p className='text-sm'>Software Engineer <span className='textColor'>(Certified)</span></p>
                     </div>
 
                     <div className='pb-4 text-sm '>
-                        <p>I am a <span className='textColor underline'>MERN Stack Developer </span> who loves to create dynamic and resposive wen applicaton</p>
+                        <p>I am a <span className='textColor underline'>MERN Stack Developer </span> who loves to create dynamic and resposive web applicaton</p>
 
                     </div>
 

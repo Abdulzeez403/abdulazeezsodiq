@@ -11,6 +11,15 @@ interface IProps {
 }
 
 export const ProjectComponent = ({ data }: IProps) => {
+
+    const sanitizeUrl = (url: any) => {
+        if (url.startsWith('http://localhost:3000')) {
+            return url.replace('http://localhost:3000', '');
+        }
+        return url;
+    };
+
+    const sanitizedLink = sanitizeUrl(data?.link);
     return (
         <div className=' w-[100%] my-5 h-50 cardShadow hover:textColor hover:shadow-slate-600 hover:shadow-md
         rounded-md shadow-sm p-4 md:w-[40%] lg:w-[40%]'>
@@ -20,7 +29,7 @@ export const ProjectComponent = ({ data }: IProps) => {
 
             <div>
                 <div className='flex gap-5 items-center py-2'>
-                    <Link href="/" className='items-center'>
+                    <Link href={data.link} target="_blank" className='items-center'>
                         <h4 className='font-bold text-[20px]'>{data?.name}</h4>
                     </Link>
                     <FaExternalLinkAlt size={20} />
@@ -29,7 +38,7 @@ export const ProjectComponent = ({ data }: IProps) => {
                     <p className='text-sm'>{data?.desc}</p>
                 </div>
                 <div className='text-end p-4'>
-                    <Link href={data?.link} className='font-bold'>See Project</Link>
+                    <Link href={sanitizedLink} target="_blank" className='font-bold'>See Project</Link>
                 </div>
             </div>
         </div>
