@@ -5,14 +5,15 @@ export default function Home() {
     return (
         <main  >
             <div className="block sm:block md:flex md:gap-10 lg:flex lg:gap-10 ">
-                <div className=" w-[100%] md:w-[30%] lg:w-[30%]">
+                <div className=" w-[100%] md:w-[30%] lg:w-[30%]  lg:sticky lg:top-10">
                     <Profile />
 
                 </div>
-                <div className='w-[100%] md:w-[71%] lg:w-[71%]    '>
-                    {/* <div className="h-50 "> */}
+                <div className='w-full md:w-[70%] lg:w-[70%] h-[calc(100vh-50px)] overflow-auto scrollable-content '>
+
                     <Content />
-                    {/* </div> */}
+
+
                 </div>
             </div>
 

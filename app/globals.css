@@ -92,3 +92,21 @@
     @apply bg-[#15254b];
   }
 }
+
+
+/* styles.css */
+.scrollable-content {
+  /* Ensure content is scrollable */
+  overflow: auto;
+
+  /* Hide scrollbar for Webkit browsers */
+  -ms-overflow-style: none;
+  /* Hide scrollbar for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* Hide scrollbar for Firefox */
+}
+
+.scrollable-content::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar for Webkit browsers */
+}

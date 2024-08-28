@@ -19,9 +19,9 @@ import { ToolsComponent } from './tools';
 export const Content = () => {
 
     return (
-        <div className="overflow-none  overflowed-scroll lg:overflow-auto lg:overflowed-scroll  h-[600px] " >
+        <div className="overflow-none  overflowed-scroll lg:overflow-auto lg:overflowed-scroll  " >
             <div>
-                <p className=' text-sm text-wrap'>My name is Sodiq Abdulazeez. I am from Nigeria, Ilorin, Kwara State. With my years of experience in Web development, Graphic Designing, Web Designing and Frontend Engineer 🎉. I have built websites and web applications that are responsive, scalable and fast for small business and medium business and I have contribute to several projects</p>
+                <p className=' text-sm text-wrap'>My name is Sodiq Abdulazeez. I am from Nigeria, Ilorin, Kwara State. With many years of experience in Web development, Graphic Designing, Web Designing and Frontend Engineer 🎉. I have built websites and web applications that are responsive, scalable and fast for small business and medium business and I have contribute to several projects</p>
                 <br />
                 <p className='text-sm text-wrap'>I ventured into web programming driven by personal curiosity and discovered a profound passion for designing and developing web applications. The process of crafting digital experiences not only captivates me but also provides a sense of ownership and fulfillment as I bring my ideas to life</p>
 
@@ -36,12 +36,12 @@ export const Content = () => {
                 </div>
 
                 <div className='text-center'>
-                    <h4 className=' text-[40px] md:text-[60px] lg:text-[60px] font-bold'>05+</h4>
+                    <h4 className=' text-[40px] md:text-[60px] lg:text-[60px] font-bold'>10+</h4>
                     <h4 className='text-sm md:text-lg lg:text-lg'>Projects Completed</h4>
                 </div>
 
                 <div className='text-center'>
-                    <h4 className='text-[40px] md:text-[60px] lg:text-[60px]  font-bold'>0+</h4>
+                    <h4 className='text-[40px] md:text-[60px] lg:text-[60px]  font-bold'>3+</h4>
                     <h4 className='text-sm md:text-lg lg:text-lg'>Projects Inprogress </h4>
                 </div>
             </div>
@@ -99,10 +99,6 @@ export const Content = () => {
                 </div>
 
             </div>
-
-
-
-
             <div className='py-4'>
                 <HeaderTitle icon={
                     <FaNetworkWired size={20} />}
