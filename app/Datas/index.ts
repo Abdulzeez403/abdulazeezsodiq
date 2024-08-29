@@ -149,7 +149,16 @@ export const projectData: IProject[] = [
         name: "Accmart",
         stacks: ["Worpdress,  Elementor, Woo-commerce",],
         link: "https://ecommerce.goolhealthandsport.com",
-        desc: "Accmart is a phone gatget store where you buy latest gatget and your order can be deliver all around the word.  ",
+        desc: "Accmart is a premier phone gadget store offering the latest and most innovative tech accessories. From cutting-edge smartphones to essential gadgets, Accmart provides a wide range of products to meet all your tech needs. ",
+    },
+
+
+     {
+        img: "/LIGHTBOARD.png",
+        name: "LightBoard",
+        stacks: ["React Native, Typescript, Mongodb,Open AI, Tailwind"],
+        link: "https://ecommerce.goolhealthandsport.com",
+        desc: "Lightboard is an innovative educational app that empowers students to learn at their own pace by providing access to a wide range of courses.  ",
     },
 
 ];

@@ -8,7 +8,6 @@ import { MdOutlinePropaneTank } from "react-icons/md";
 import { ProjectComponent } from './project';
 import { FaNetworkWired } from "react-icons/fa6";
 import { IoCodeSlashSharp } from "react-icons/io5";
-import { ImageComponent } from '@/app/components/images';
 import { IoIosCall } from "react-icons/io";
 import { MdOutlineMail } from "react-icons/md";
 import { FaLocationCrosshairs } from "react-icons/fa6";
