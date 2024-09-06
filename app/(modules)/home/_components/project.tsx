@@ -21,7 +21,7 @@ export const ProjectComponent = ({ data }: IProps) => {
 
     const sanitizedLink = sanitizeUrl(data?.link);
     return (
-        <div className=' w-[100%] my-5 h-50 cardShadow hover:textColor hover:shadow-slate-600 hover:shadow-md
+        <div id="project" className=' w-[100%] my-5 h-50 cardShadow hover:textColor hover:shadow-slate-600 hover:shadow-md
         rounded-md shadow-sm p-4 md:w-[40%] lg:w-[40%]'>
             <div className='flex justify-center m-0'>
                 <ImageComponent src={data?.img} alt="ProjectImage" width={400} height={150} />

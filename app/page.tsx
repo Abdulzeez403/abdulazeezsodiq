@@ -1,5 +1,6 @@
 import Profile from "./(modules)/home/_components/profile";
 import { Content } from "./(modules)/home/_components/content";
+import { BottomNav } from "./(modules)/home/_components/bottomNav";
 
 export default function Home() {
     return (
@@ -9,14 +10,15 @@ export default function Home() {
                     <Profile />
 
                 </div>
-                <div className='w-full md:w-[70%] lg:w-[70%] h-[calc(100vh-50px)] overflow-auto scrollable-content '>
+                <div className='w-full md:w-[70%] lg:w-[70%] h-[calc(100vh-50px)]  md:overflow-auto scrollable-content
+                lg:overflow-auto'>
 
                     <Content />
 
 
                 </div>
             </div>
-
+            <BottomNav/>
         </main>
 
 

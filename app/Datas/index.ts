@@ -49,7 +49,7 @@ export const ExperienceData: IExperienceProps[] = [
         company: "Asynctechs",
         date: "Dec, 2022 - Present",
         desc: "At Asynctechs, a startup located in Kwara State, I started as a frontend developer. Later, I transitioned to testing and eventually returned to development. Throughout my journey, I collaborated with a remote team of eight individuals, spread across different locations",
-        techUseds: ["ReactJs", "JavaScript", "NextJs", "Graphql", "React Native"],
+        techUseds: ["ReactJs", "JavaScript", "NextJs", "Graphql", "React_Native"],
         projects: ["MsGold", "Transact"],
     },
     {
@@ -156,7 +156,7 @@ export const projectData: IProject[] = [
      {
         img: "/LIGHTBOARD.png",
         name: "LightBoard",
-        stacks: ["React Native, Typescript, Mongodb,Open AI, Tailwind"],
+        stacks: ["React-Native, Typescript, Mongodb,Open AI, Tailwind"],
         link: "https://ecommerce.goolhealthandsport.com",
         desc: "Lightboard is an innovative educational app that empowers students to learn at their own pace by providing access to a wide range of courses.  ",
     },

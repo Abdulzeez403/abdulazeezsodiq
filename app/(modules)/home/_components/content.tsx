@@ -18,7 +18,7 @@ import { ToolsComponent } from './tools';
 export const Content = () => {
 
     return (
-        <div className="overflow-none  overflowed-scroll lg:overflow-auto lg:overflowed-scroll  " >
+        <div className=" px-2 overflow-none  overflowed-scroll lg:overflow-auto lg:overflowed-scroll  " >
             <div>
                 <p className=' text-sm text-wrap'>My name is Sodiq Abdulazeez. I am from Nigeria, Ilorin, Kwara State. With many years of experience in Web development, Graphic Designing, Web Designing and Frontend Engineer 🎉. I have built websites and web applications that are responsive, scalable and fast for small business and medium business and I have contribute to several projects</p>
                 <br />
@@ -88,7 +88,7 @@ export const Content = () => {
                 <HeaderTitle icon={
                     <MdOutlinePropaneTank size={20} />}
                     title="Projects and Works"
-                    subTitle="My Project"
+                    subTitle="My Projects"
                 />
                 <div className='block  gap-5 md:flex-wrap sm:block md:flex lg:flex lg:flex-wrap'>
                     {
@@ -102,7 +102,7 @@ export const Content = () => {
                 <HeaderTitle icon={
                     <FaNetworkWired size={20} />}
                     title="Skills and Expertise"
-                    subTitle="My Specialization"
+                    subTitle="My Specializations"
                 />
                 <div>
                     <div className='py-4'>
@@ -146,7 +146,7 @@ export const Content = () => {
 
 
 
-                <div className='py-4'>
+                <div className='py-4' id="contact">
                     <HeaderTitle icon={
                         <FaNetworkWired size={20} />}
                         title="Contact Me"

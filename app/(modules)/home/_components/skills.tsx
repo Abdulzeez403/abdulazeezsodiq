@@ -24,7 +24,7 @@ export const SkillsComponent = ({ title, desc }: SkillsProps) => {
 
     return (
 
-        <div className='flex flex-wrap shadow-md p-4 rounded-md my-4   cardShadow hover:textColor hover:shadow-slate-600 hover:shadow-md md:w-[400px] lg:w-[400px] '>
+        <div id="skill" className='flex flex-wrap shadow-md p-4 rounded-md my-4   cardShadow hover:textColor hover:shadow-slate-600 hover:shadow-md md:w-[400px] lg:w-[400px] '>
             {renderIcon(title)}
             <h4 className='text-[20px] leading-6 py-2 font-bold'>{title}</h4>
             <p className="text-sm">{desc}</p>

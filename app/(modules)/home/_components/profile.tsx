@@ -12,7 +12,7 @@ function Profile() {
 
 
     return (
-        <div className='p-4'>
+        <div id="about" className='p-4'>
             <div>
                 <div className='flex'>
                     <ImageComponent src={ProfileImage} alt="ProfileImage" width={250} height={250} className="rounded-lg" />
@@ -43,34 +43,34 @@ function Profile() {
                         <nav className='pb-3'>
                             <ul className="flex gap-2">
                                 <li>
-                                    <Link href='/' className=" ">
+                                    <Link href='#about' className=" ">
                                         About
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href='/' className="">
+                                    <Link href='#experience' className="">
                                         Experience
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link href='/' className="">
+                                    <Link href='#project' className="">
                                         Projects
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link href='/' className="">
+                                    <Link href='#skill' className="">
                                         Skills
                                     </Link>
                                 </li>
 
-
+{/* 
                                 <li>
-                                    <Link href='/' className="">
+                                    <Link href='#' className="">
                                         Blogs
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </nav>
                         <div >
@@ -104,7 +104,7 @@ function Profile() {
                                 <ul className='textColor'>
                                     <li className='flex  items-center'>
                                         <MdOutlineMail size={20} />
-                                        <Link href='/' className="p-3">
+                                        <Link href='#contact' className="p-3">
                                             Get in touch
                                         </Link>
                                     </li>
