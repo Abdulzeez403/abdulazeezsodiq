@@ -20,11 +20,11 @@ export default function RootLayout({
       <body className={`flex justify-center m-0 background ${inter.className}`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
-          <div className=" w-96 mx-auto py-4 px-2  md:w-[90%] lg:w-[90%]  ">
+          <div className=" w-96 mx-auto py-4 px-2 text-white md:w-[90%] lg:w-[90%]  ">
             {children}
           </div>
         </ThemeProvider>

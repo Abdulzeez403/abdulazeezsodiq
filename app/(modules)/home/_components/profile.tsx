@@ -7,8 +7,6 @@ import ProfileImage from "../../../../public/person2.png";
 import { MdOutlineMail } from "react-icons/md";
 
 function Profile() {
-  const [switcher, setSwitcher] = useState(true);
-
   return (
     <div id="about" className="p-4">
       <div>
@@ -24,7 +22,9 @@ function Profile() {
 
         <div>
           <div className="py-4">
-            <h4 className="text-[25px] font-bold">Abdulazeez Sodiq</h4>
+            <h4 className="text-[25px] font-bold text-white">
+              Abdulazeez Sodiq
+            </h4>
             <p className="text-sm">
               Software Engineer <span className="textColor">(Certified)</span>
             </p>
