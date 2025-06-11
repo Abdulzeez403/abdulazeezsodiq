@@ -1,47 +1,63 @@
-"use client"
-import AnimatedButton from '@/app/components/images/Buttons/animatedButton';
-import { motion } from 'framer-motion';
-import React from 'react'
+"use client";
+
+import React, { useState } from "react";
 import { CiEdit } from "react-icons/ci";
 
 export const ContactForm = () => {
+  return (
+    <div>
+      <div className="flex gap-3 mb-4">
+        <CiEdit size={24} />
+        <h4 className="font-bold">Write me a message!</h4>
+      </div>
 
+      <form
+        action="https://formsubmit.co/abdulazeezsodiq403@gmail.com" // 🔁 Replace this
+        method="POST"
+        className="space-y-4"
+      >
+        {/* Prevent bot spam */}
+        {/* <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://abdulazeezsodiq.vercel.app/thank-you"
+        /> */}
 
+        <input
+          type="text"
+          name="name"
+          className="border-b-4 px-4 py-3 outline-none w-[370px]"
+          placeholder="Your Name"
+          required
+        />
 
-    return (
-        <div>
-            <div className='flex gap-3'>
-                <CiEdit />
-                <h4 className='font-bold'>Write me a message!</h4>
-            </div>
+        <input
+          type="email"
+          name="email"
+          className="border-b-4 px-4 py-3 outline-none w-[370px]"
+          placeholder="Your Email"
+          required
+        />
 
-            <form action="" method="post">
-                <input
-                    type="text"
-                    className="border-b-4 px-4 py-3 outline-none w-[370px]"
-                    placeholder="Your Name"
-                />
+        <textarea
+          name="message"
+          className="border-b-4 px-4 py-3 outline-none w-[370px] resize-none"
+          placeholder="Message..."
+          rows={5}
+          required
+        />
 
-                <input
-                    type="text"
-                    className="border-b-4 px-4 py-3 outline-none w-[370px]"
-                    placeholder="Your Email"
-                />
-
-                <textarea
-                    // type="text"
-                    className="border-b-4 px-4 py-3 outline-none w-[370px]"
-                    placeholder="Message..."
-                />
-
-                <div className='flex-end'>
-                    <AnimatedButton label="Send Message" />
-                </div>
-
-
-            </form>
-
+        <div className="flex justify-end">
+          <button
+            type="submit"
+            className="bg-white text-black px-6 py-3 rounded hover:bg-gray-800 transition"
+          >
+            Send Message
+          </button>
         </div>
-    )
-}
-
+      </form>
+    </div>
+  );
+};
