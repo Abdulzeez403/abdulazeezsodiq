@@ -26,15 +26,14 @@ function Profile() {
               Abdulazeez Sodiq
             </h4>
             <p className="text-sm">
-              Software Engineer <span className="textColor">(Certified)</span>
+              SaaS & AI-Focused Full-Stack Developer | MERN Stack | React Native
             </p>
           </div>
 
           <div className="pb-4 text-sm ">
-            <p>
-              I am a{" "}
-              <span className="textColor underline">MERN Stack Developer </span>{" "}
-              who loves to create dynamic and resposive web applicaton
+            <p className="text-xs text-gray-400">
+              I turn complex ideas into scalable SaaS platforms, AI-powered
+              products, and mobile-first applications.
             </p>
           </div>
 
@@ -42,9 +41,10 @@ function Profile() {
             <div>
               <h3 className="py-3 textColor">
                 <a href="../AbdulazeezSodiq.pdf" download>
-                  Get my resume
+                  Download My SaaS Developer Resume
                 </a>
               </h3>
+
               <div className="h-[2px] w-10 textColor bg-green-200  m-[-10]"></div>
             </div>
 

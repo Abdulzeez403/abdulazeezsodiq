@@ -30,16 +30,20 @@ export const linkToSocialMedia = [{}];
 
 export const SkillData = [
   {
-    title: "FontEnd Web Development",
-    desc: "I can convert any psd or Figma file into mobile or tab responsive web application. Capable of doing project in clean code.",
+    title: "Full-Stack SaaS Development",
+    desc: "I specialize in building complete SaaS platforms with secure authentication, multi-tenancy, billing systems, admin dashboards, API integrations, and cloud deployment. My MERN stack expertise ensures high performance and scalability for startups and agencies.",
+  },
+  {
+    title: "AI API Integration",
+    desc: "Experienced integrating AI models (OpenAI GPT-4, LangChain, LLMs) into SaaS platforms to enhance product functionality, automate workflows, and deliver advanced analytics & recommendations to end-users.",
   },
   {
     title: "Mobile App Development",
-    desc: "I have pretty good experience building cross-platform application and it is scalable with quick performance. I have worked on atleast 5 mobile app which are now live",
+    desc: "I build cross-platform mobile apps with React Native, seamlessly connected to web-based SaaS backends. Apps are optimized for performance, scalability, and intuitive user experience.",
   },
   {
-    title: "WordPress Development",
-    desc: "I specialize in converting PSD or Figma designs into WordPress websites and creating custom themes from scratch. I've successfully completed numerous projects in this domain",
+    title: "API & Backend Engineering",
+    desc: "Designing secure, scalable APIs (REST, GraphQL) and building reliable backend services with Node.js, Express, and MongoDB. Expert in integrating third-party APIs such as Stripe, Firebase, OpenAI, and cloud infrastructure (AWS, Vercel, Docker).",
   },
 ];
 
