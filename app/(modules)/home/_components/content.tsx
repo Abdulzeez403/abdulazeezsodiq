@@ -34,10 +34,9 @@ export const Content = () => {
         <p>
           I help SaaS startups, AI-driven companies, and agencies build
           scalable, reliable, and business-focused web & mobile applications.
-          <span className="textColor underline">
-            {" "}
+          <span className="textColor ">
             As a Full-Stack Developer (MERN Stack & React Native),
-          </span>{" "}
+          </span>
           I specialize in delivering complete SaaS platforms, AI integrations
           (OpenAI, LangChain, LLMs), secure APIs, and cross-platform mobile apps
           that transform complex business challenges into simple, scalable, and
@@ -45,8 +44,8 @@ export const Content = () => {
         </p>
         <br />
         <p className=" text-wrap">
-          Whether you're launching your first MVP or scaling to thousands of
-          users, I turn ideas into clean, efficient, and scalable digital
+          Whether you&apos;re launching your first MVP or scaling to thousands
+          of users, I turn ideas into clean, efficient, and scalable digital
           products — delivered on time, on budget, and built for growth.
         </p>
       </div>
