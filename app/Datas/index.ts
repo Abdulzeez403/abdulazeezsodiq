@@ -152,16 +152,16 @@ export const projectData: IProject[] = [
     img: "/jambfocus.png",
     name: "JambFocus",
     stacks: ["React js, Next Js, MongoDB, Tailwind, Express js"],
-    link: "https://jambfocus.com/",
+    link: "https://quizit-murex.vercel.app",
     desc: "JambFocus is a plalform where student earn will learn. you earn coins by answering past jamb question and you can convert this coin to either airtime or Databundle  ",
   },
 
   {
-    img: "/ecommerce.png",
-    name: "Accmart",
-    stacks: ["Worpdress,  Elementor, Woo-commerce"],
-    link: "https://ecommerce.goolhealthandsport.com",
-    desc: "Accmart is a premier phone gadget store offering the latest and most innovative tech accessories. From cutting-edge smartphones to essential gadgets, Accmart provides a wide range of products to meet all your tech needs. ",
+    img: "/passrite.png",
+    name: "Passrite",
+    stacks: ["Next Js, MongoDB , Tailwind, Express Js, "],
+    link: "https://passrite.vercel.app",
+    desc: "Passrite is a plalform where student earn will learn. you earn coins by answering past jamb, weac, neco and post-utme question and you can convert this coin to either airtime or Databundle  ",
   },
 
   {
